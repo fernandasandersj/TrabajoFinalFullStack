@@ -1,0 +1,2901 @@
+/* PARAMETROS  */
+@import url('https://fonts.googleapis.com/css2?family=Meddon&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif; */
+
+
+
+/* NORMALIZADORES */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* outline: 2px dashed purple; */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover{
+    font-weight: bold;
+    color: #143026;
+    transition: all 0.5s ease-in-out;
+}
+
+button{
+    border:none;
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+h1, h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+h3,h4,h5{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h4{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+h5{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+span{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+i{
+    font-size: 15px;
+}
+
+input,
+textarea,
+label{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/* RECURSIVAS | FRONT  */
+
+.btn_principal{
+    width: 155px;
+    height: 50px;
+    background-color: #FFC3B5;
+    text-align: center;
+    margin: 25px auto;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 3%;
+    border: none;
+}
+
+.btn_principal:hover{
+    background-color: #70E0B7;
+    transition: all 0.5s ease-out;
+}
+
+/* Pagina Contacto | Recursivas | FRONT */
+
+.errorFormulario,
+.errorFormularioCorreo{
+    width: 100%;
+    background-color: #ffc3b562;
+    padding: 4%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.errorFormulario{
+    width: 100%;
+    background-color: #6DB39A;
+    padding: 4%;
+    margin: 20px auto;
+    text-align: center; 
+}
+
+
+
+.errorFormulario p,
+.errorFormularioCorreo p{
+     font-family: 'Playfair Display', serif;
+     font-weight: 700;
+}
+
+.contacto_s1 input{
+    padding: 5%;
+    width: 90%;
+    height: 50px;
+    border: 1px solid #6DB39A;
+    border-radius: 5px;
+    background-color: rgba(207, 255, 238, 0.45);
+    margin: 10px auto;
+}
+
+/* METODO DE ENVIO  */
+
+.cajaMetodoEnvio{
+    width: 80%;
+    margin: auto;
+}
+
+.cajaMetodoEnvio h3{
+    height: 36px;
+    border-bottom: 1px solid black;
+    margin: 0px auto 20px;
+}
+
+.cajaMetodoEnvio p{
+    margin: 27px auto;
+}
+
+/* PRODUCTO ESPECIFICO */
+
+.Sect1ProductoEspecifico{
+    width: 200px;
+    margin: 29px auto 9px ;
+    text-align: center;
+}
+
+.btn_atras{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #FFC3B5;
+    position: absolute;
+    top: 176px;
+    left: 19px;
+}
+
+.imagenProductoEspecifico{
+    width: 200px;
+    height: 200px;
+    background-color: #FFC3B5;
+    margin-bottom: 10px;
+}
+
+
+.productoFavorito i{
+    color: #459377;
+    font-size: 20px ;
+}
+
+.ProductoEspecifico div:last-child{
+    width: 272px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.ProductoEspecifico h4{
+    font-size: 18px;
+    font-weight:  600;
+}
+
+.ProductoEspecifico p{
+    margin: 20px auto;
+}
+
+.cantidad{
+    width: 50%;
+    margin: auto;
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cantidad i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #459377;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #459377;
+}
+
+/* PAGINACION */
+.cajaPaginacion{
+    margin: 42px auto;
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajaPaginacion p{
+    margin: 10px 20px;
+}
+/* Fin Pagina Contacto | Recursivas | FRONT */
+
+/* RECURSIVAS | BACK */
+
+/* Pagina subida */
+
+.cajaSubidoCorrectamente{
+    padding: 3%;
+    background-color: #FFC3B5;
+    text-align: center;
+    margin: 39px auto;
+}
+
+.encabezadoSubirProducto{
+    width: 80%;
+    margin: auto;
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezadoSubirProducto a{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #FFC3B5;
+}
+
+.encabezadoSubirProducto i{
+    font-size: 14px;
+    color: black;
+}
+
+.cajaSubidoCorrectamente p{
+    font-weight: bold;
+}
+
+/* Pagina gestionar productos */
+
+.btn_admin_Gproductos{
+    background-color: #FFC3B5;
+    padding: 13px 27px;
+    border-radius: 5px;
+    margin: 0px -13px;
+}
+
+
+/* FIN RECURSIVAS | BACK */
+
+
+/* Clases Javascript | FRONT */
+
+.d-body{
+    position: fixed !important;
+}
+
+.d-none{
+    display: none !important;
+}
+
+.d-block{
+    display: block;
+}
+
+.transformX{
+    transform: translateX(0px) !important;
+    transition: all 1.2s ease-out;
+}
+
+
+.checkFormulario {
+    background-color: rgb(207, 255, 238)!important;
+}
+
+.rojoFormulario {
+    background-color: rgba(255, 140, 145, 0.84)!important;
+}
+
+.favorito{
+    width: 40px;
+    height: 40px;
+    background-color: #4593775e;
+    color: black;
+    border-radius: 50%;
+    margin-top: 0px !important;
+}
+
+.btnOpinionesSelect{
+    background-color: #64E3B6;
+    box-shadow: -4px 1px 15px 5px rgba(112,224,183,0.27);
+    border-radius: 50%
+}
+
+/* Fin clases JavaScript  | FRONT */
+
+/* Clases Javascript | Back */
+
+.green{
+    color: #459377 !important;
+    font-size: 17px;
+}
+
+
+/* REGLAS GENERALES */
+
+/* HEADER FRONT */
+/* Boton UP */
+
+.btn_up{
+    width: 50px;
+    height: 50px;
+    color: #6DB39A;
+    position: fixed;
+    top: 80%;
+    left: 8px;
+    z-index: 3500;
+}
+
+.btn_up i{
+    font-size: 31px;
+}
+
+
+body{
+    background-image: url(../img/Fondo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.marco{
+    width: 100%;
+    margin: auto;
+    max-width: 1920px;
+}
+                                                                                  
+.cabecera_mob{
+    width: 100%;
+    height: 231px;
+}
+
+/* MENU MOB */
+
+.btn_menu_mob{
+    color: #459377;
+    position: absolute;
+    top: 28px;
+    right: 34px;
+    z-index: 3000;
+    
+}
+
+.btn_menu_mob i{
+    font-size: 32px;
+}
+
+.desplegable_menu_mob{
+    background-color: #DDFFF5;
+    width: 200px;
+    height: 322px;
+    position: absolute;
+    top: 19px;
+    right: 20px;
+    z-index: 2500;
+    border-radius: 0px 0px 0px 29px;
+    transform: translateX(250px);
+}
+
+.desplegable_menu_mob a{
+    font-size: 25px;
+    margin: 40px auto;
+    text-transform: uppercase;
+}
+
+
+/* MENU DKP | FRONT */
+.nav_dsk_front{
+    display: none;
+}
+
+/* ------ADMIN----- */
+
+/* HEADER ADMIN */
+
+.cabecera_mob_admin{
+    width: 100%;
+    height: 234px;
+    color: #459377;
+    text-align: center;
+    padding: 9px 37px;
+}
+
+.cabecera_mob_admin p{
+    margin: 15px auto;
+}
+
+.logoAdmin{
+    width: 80px;
+    height: 73px;
+    margin: 10px auto;
+}
+
+.btn_CerrarSesion{
+    width: 172px;
+    border: 1px solid #459377;
+    height: 44px;
+    padding: 15px;
+    margin: auto;
+}
+
+.cabecera_mob_admin i{
+    margin-right: 15px;
+    color: #459377;
+}
+
+.nav_mob_admin{
+    position: absolute;
+    top: 28px;
+    right: 34px;
+    z-index: 3000;
+}
+
+/* NAV | ADMIN */
+
+.desplegable_menu_mob_admin{
+    background-color: #DDFFF5;
+    width: 200px;
+    height: 322px;
+    position: absolute;
+    top: 19px;
+    right: 20px;
+    z-index: 2500;
+    padding: 5%;
+    border-radius: 0px 0px 0px 29px;
+    transform: translateX(250px);
+}
+
+.desplegable_menu_mob_admin a{
+    text-transform: uppercase;
+    margin: 31px 16px;
+    font-size: 19px;
+    text-align: center;
+    width: 90%;
+}
+    
+.nav_mob_admin i{
+    font-size: 32px;
+    color: #459377;
+}
+
+/* Fin HEADER ADMIN */
+
+.logo{
+    width: 80px;
+    height: 73px;
+    margin: 10px auto;
+}
+
+.cabecera_mob p{
+   text-align: center;
+}
+
+.rrss_mob{
+    width: 100px;
+    height: 40px;
+    margin: 10px auto;
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rrss_mob a:hover{
+    background-color: #FFC3B5;
+    color: #143026;
+    border: none;
+    transition: all 0.5s ease-in;
+}
+
+.rrss_mob a{
+    color: #459377;
+    margin: auto;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #459377;
+    border-radius: 50%;
+}
+
+
+/* FOOTER */
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: #B5FFE5;
+    padding: 5%;
+    text-align: center;
+    /*flex*/
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.logo_footer{
+    width: 66px;
+    height: 55px;
+}
+
+.footer div a{
+    margin: 10px;
+}
+
+
+/* ------------- REGLAS ESPECIFICAS------------- */
+/* Section 1 | HOME */
+
+.s1{
+    text-align: center;
+}
+
+.s1 p{
+    font-size: 27px;
+    margin: 16px auto 10px;
+    width: 90%;
+    font-weight: 500;
+    font-family: 'Meddon', cursive;
+}
+
+.s1 h1{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.s1 h3{
+    margin: 16px auto 10px;
+    width: 90%;
+}
+
+.s1 h4{
+    margin: 16px auto 0px;
+    width: 90%;
+}
+
+.imgs1{
+    width: 320px;
+    height: 248px;
+    margin: auto;
+}
+
+/* HOVER */
+
+.imgs1 img:hover{
+    transform: scale(1.1);
+    transition: all 1.1s ease-in;
+}
+
+/* Section 2  | HOME */
+
+.section2 h2{
+    width: 50%;
+    margin: 23px auto;
+    text-align: center;
+}
+
+.categorias > div{
+    padding: 5%;
+    width: 161px;
+    margin: auto;
+    text-align: center;
+}
+
+.categorias{
+    text-align: center;
+}
+
+.categorias_div{
+    display: block;
+    width: 125px;
+    height: 125px;
+    margin: 21px 28px 38px;
+}
+
+.categorias_div img{
+    object-fit: cover;
+}
+
+.categorias .categorias_div:nth-child(2){
+    position: relative;
+    left: 161px;
+    z-index: 3000;
+}
+
+.categorias_div div{
+    width: 125px;
+    height: 125px;
+    background-color: #70E0B7;
+    margin-bottom: 10px;
+    border:2px solid #70E0B7;
+}
+
+.categorias_div:hover{
+    transform: scaleX(1.1);
+    transition: all 1s ease-out;
+}
+
+.especificaciones{
+    background-color: #B5FFE5;
+    padding: 5% 1px;
+    margin-bottom: 40px;
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.especificaciones p{
+    text-align: center;
+    font-size: 10px;
+}
+
+/* Section 3  | HOME */
+
+.section3 h2{
+    text-align: center;
+}
+
+.opiniones{
+    margin: 20px auto;
+}
+
+.opiniones > div{
+    width: 90%;
+    height: 172px;
+    border: 1px solid #7BCBAE;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.persona{
+    margin: 20px auto;
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.persona div{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #7BCBAE;
+    margin: 10px;
+}
+
+.persona img{
+    object-fit: cover;
+}
+
+.cajaOpinionesbtn{
+    width: 80%;
+    margin: 30px auto;
+    /*flex*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btnOpinion{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: all .5s ease-in;
+}
+
+.btnOpinion:hover{
+    background-color: #70E0B7;
+}
+
+.btnOpinion i{
+    color: #70E0B7 ;
+    font-size: 30px;
+}
+
+
+/* Section 4  | HOME */
+
+ .section4 h2{
+    text-align: center;
+ }
+
+ .section4 div{
+     /*flex*/
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .img_sect4,
+ .img2_sect4{
+     margin: 30px auto;
+     padding: 5%;
+ }
+
+ .img_sect4 div{
+     width: 110px;
+     height: 103px;
+     transform: rotate(-15deg);
+ }
+
+ .img2_sect4 div{
+    width: 109px;
+    height: 100px;
+    transform: rotate(21deg);
+ }
+
+ .img_sect4 p,
+ .img2_sect4 p{
+    width: 58%;
+ }
+
+ /* HOVER */
+
+ .img_sect4 img:hover{
+     transform: scale(1.1);
+     transition: all 0.5s ease-in;
+     transform:rotate(30deg);
+ }
+
+ .img2_sect4 img:hover{
+     transform: scale(1.1);
+     transition: all 0.5s ease-in;
+     transform:rotate(-30deg);
+ }
+
+ /* -------------- PAGINA CONTACTO -----------------*/
+
+ /* SECTION 1 | CONTACTO */
+
+.contacto_s1 {
+    padding: 2%;
+}
+
+.contacto_s1 h2{
+    text-align: center;
+}
+
+.contacto_s1 p{
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.formulario{
+    text-align: center;
+}
+
+.contacto_s1 textarea{
+    width: 90%;
+    height: 150px;
+    padding: 5%;
+    border: 1px solid #6DB39A;
+    border-radius: 5px;
+    background-color: rgba(207, 255, 238, 0.45);
+    margin: 10px auto;
+    resize: none;
+}
+
+
+.img1_formulario{
+    width: 194px;
+    height: 235px;
+    margin: 30px auto;
+}
+
+.img2_formulario{
+    width: 194px;
+    height: 73px;
+    margin: 30px auto;
+    object-fit: cover;
+}
+
+
+/* MODAL | CONTACTO */
+
+
+.OverlayRespuestaContacto{
+    position: absolute;
+    z-index: 2000;
+    background-color: #ddfff56c;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+}
+
+.ModalTextoContacto{
+    position: absolute;
+    z-index: 2500;
+    top: 156px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #DDFFF3;
+    width: 90%;
+    height: 317px;
+    padding: 5%;
+    text-align: center;
+}
+
+
+.ModalTextoContacto h3{
+    font-weight: 600;
+    width: 70%;
+    margin: 43px auto 20px;
+}
+
+.ModalTextoContacto p{
+    line-height: 22px;
+}
+
+
+#close_ModalContacto{
+    font-size: 29px;
+    position: absolute;
+    top: 18px;
+    left: 16px;
+    z-index: 2500;
+    color: #143026;
+}
+
+
+/* TIENDA */
+
+.h1_Tienda{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.cajaTiendaTipos{
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+
+.cajaTiendaTipos a{
+    padding: 8%;
+    font-weight: inherit;
+}
+
+.cajaProductoTienda{
+    /*flex*/
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap:wrap;
+}
+
+.productoTienda{
+    margin:10px 0px ;
+    width: 34%;
+    text-align: center;
+}
+
+.imgProductoTienda{
+    height: 109px;
+    width: 109px;
+}
+
+.iconosTienda{
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconosTienda button{
+    width: 30px;
+    height: 30px;
+    background-color: #FFC3B5;
+    border-radius: 50%;
+    margin: 9px 12px;
+}
+
+.iconosTienda i{
+    font-size: 16px;
+}
+
+.productoTienda p{
+    margin: 10px 0px;
+}
+
+
+/* METODO DE ENVIO */
+
+/* Section 2 */
+
+.cajaMetodoEnvio form{
+    width: 125px;
+}
+
+.cajaMetodoEnvio input{
+    margin: 10px 0px;
+    width: 17px;
+    height: 17px;
+}
+
+.cajaMetodoEnvio span{
+    color: rgb(177, 177, 177);
+}
+
+
+/* FORMAS ENVIO */
+
+.caja1FormasEnvio{
+    width: 80%;
+    margin: auto;
+}
+
+.imagenFormasEnvio{
+    width: 55%;
+    margin: auto;
+}
+
+.caja1FormasEnvio p,
+.cajaFormasEnvio p{
+    width: 230px;
+    margin: 13px auto;
+    text-align: center;
+}
+
+/* CARACTERISTICAS DEL PRODUCTO */
+
+.sectionCarateristicas h1{
+    text-align: center; 
+}
+
+.sectionCarateristicas p{
+    width: 80% ;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* ------------- ADMIN  ------------*/
+
+
+.nav_dsk_admin{
+    display: none;
+}
+
+.cajaIniciarSesion{
+    width: 90%;
+    height: 483px;
+    background-color: #ddfff54b;
+    border: 1px solid #70E0B7;
+    border-radius: 30px;
+    padding: 5%;
+    text-align: center;
+    margin: 10px auto 68px;
+}
+
+.cajaIniciarSesion h3{
+    font-weight: 500;
+    margin: 25px auto;
+}
+
+#usuario{
+    width: 90%;
+    height: 50px;
+    background-color: #DBFFF4;
+    border: 1px solid #459377;
+    margin: 15px auto;
+    border-radius: 10px;
+    padding: 2%;
+    font-size: 15px;
+}
+.password{
+    width: 90%;
+    height: 50px;
+    background-color: #DBFFF4;
+    border: 1px solid #459377;
+    margin: 15px auto;
+    border-radius: 10px;
+    padding: 2%;
+    font-size: 15px;
+    /*flex*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#password,
+#password2{
+    border: none;
+    height: 43px;
+    width: 87%;
+    background-color: transparent;
+    font-size: 14px;
+    
+}
+
+.cajaIniciarSesion p{
+    margin: 20px auto;
+}
+
+.cajaIniciarSesion p a{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* PAGINA GESTIONAR PRODUCTOS  */
+
+.cajaGestionarProducto{
+    height: 50px;
+    background-color: #90EDCB;
+    text-align: center;
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajaGestionarProducto h1{
+   font-size: 18px;
+  
+}
+
+.cajaGestionarProducto .btn_principal{
+   margin: 34px 85px;
+}
+
+.menu_seleccion{
+    width: 100%;
+    height: 50px;
+    background-color: #CFFFEE;
+    margin: 20px auto;
+    /* flex */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: scroll;
+}
+
+.menu_seleccion p{
+    font-size: 14px;
+    margin-left: 55px;
+}
+
+.menu_seleccion button{
+    width: 300px;
+    margin-left: 39px;
+}
+
+.div_gestionarProducto{
+    overflow: auto;
+    width: 100%;
+    border-bottom: 1px solid black;
+    /*flex*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.div_gestionarProducto div{
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_admin_Gproductos{
+    margin: 0px 10px;
+}
+
+.div_gestionarProducto p{
+    margin: 0px 33px 18px;
+}
+
+.div_gestionarProducto p:first-child{
+    padding-left: 10px;
+}
+
+
+
+/* Pagina Subir Producto | ADMIN */
+
+.h3SubirProducto{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.cajaInputSubirProducto,
+.cajaInputSubirProductoGenerico{
+    width: 90%;
+    margin: auto;
+}
+
+.cajaInputSubirProducto input,
+.cajaInputSubirProductoGenerico input{
+    width: 100%;
+    height: 41px;
+    border-radius: 5px;
+    border: 1px solid #6DB39A;
+    background-color: #CFFFEE;
+    margin: 9px auto;
+    padding: 2%;
+}
+
+.cajaInputSubirProducto textarea,
+.cajaInputSubirProductoGenerico textarea{
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid #6DB39A;
+    background-color: #CFFFEE;
+    margin: 9px auto;
+    padding: 2%;
+    resize: none;
+}
+
+
+/* PAGINA RECUPERAR CONTRASEÑA */
+
+.cajaRecuperarContraseña{
+    width: 90%;
+    background-color: #ddfff562;
+    border: 1px solid #70E0B7;
+    border-radius: 10px;
+    margin: 10px auto 62px;
+    padding: 5%;
+    text-align: center;
+}
+
+.cajaRecuperarContraseña p{
+    margin: 30px auto;
+}
+
+.formularioRecuperarContrasena input {
+    width: 90%;
+    background-color: #DBFFF4;
+    border: 1px solid #459377;
+    height: 40px;
+    border-radius: 05px;
+    padding: 3px;
+    margin: 33px auto;
+}
+
+/* GESTIONAR USUARIOS */
+
+.enConstruccion h1{
+    width: 67%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.enConstruccion p{
+    text-align: center;
+}
+
+.enConstruccion div{
+    width: 68% ;
+    margin: 0px auto;
+    -webkit-animation: bounce-in-top 1.1s both;
+    animation: bounce-in-top 1.1s both;
+    }
+
+    /* ----------------------------------------------
+ * Generated by Animista on 2021-7-15 23:22:38
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation bounce-in-top
+ * ----------------------------------------
+ */
+@-webkit-keyframes bounce-in-top {
+    0% {
+      -webkit-transform: translateY(-500px);
+              transform: translateY(-500px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: translateY(-65px);
+              transform: translateY(-65px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: translateY(-28px);
+              transform: translateY(-28px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    90% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: translateY(-8px);
+              transform: translateY(-8px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes bounce-in-top {
+    0% {
+      -webkit-transform: translateY(-500px);
+              transform: translateY(-500px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: translateY(-65px);
+              transform: translateY(-65px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: translateY(-28px);
+              transform: translateY(-28px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    90% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: translateY(-8px);
+              transform: translateY(-8px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+
+
+/* RESPONSIVE */
+
+/* HOME | FRONT */
+
+@media (min-width: 568px){
+
+/* GENERAL */
+
+.logo_footer{
+    height: 70px;   
+}
+
+/* ESPECIFICOS */
+
+.categorias{
+    height: 197px;
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categorias > div{
+    padding: 3%;
+    width: 30%;
+}
+
+.categorias .categorias_div:nth-child(2){
+    position: inherit;
+}
+
+.especificaciones{
+    justify-content: space-around;
+}
+
+.especificaciones p {
+    text-align: center;
+    font-size: 10px;
+    width: 151px;
+}
+
+.opiniones > div {
+    width: 51%;
+    height: 178px;
+}
+
+.img_sect4,
+.img2_sect4 {
+    width: 79%;
+}
+
+/* TIENDA | FRONT */
+
+.cajaTiendaTipos{
+    justify-content: space-around;
+}
+
+.productoTienda {
+    width: 37%;
+}
+
+.cajaTiendaTipos a {
+    font-size: 17px;
+    padding: 5%;
+}
+
+.imgProductoTienda{
+    height: 163px;
+    width: 163px;
+    margin: auto;
+}
+
+.iconosTienda button {
+    width: 40px;
+    height: 40px;
+    margin: 18px 12px;
+}
+
+.iconosTienda i {
+    font-size: 20px;
+}
+
+/* METODO DE ENVIO */
+
+.cajaMetodoEnvio form{
+    width: 25%;
+}
+
+/* FORMA ENVIO  */
+
+.caja1FormasEnvio{
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenFormasEnvio {
+    width: 34%;
+    margin: 0px 10px;
+}
+
+.caja1FormasEnvio p, 
+.cajaFormasEnvio p{
+    width: 74%;
+    margin: 13px auto;
+    text-align: left;
+}
+
+/* PRODUCTO ESPECIFICO */
+
+.ProductoEspecifico{
+    width: 80%;
+    margin: 31px auto;
+    /*flex*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+/* ESPECIFICOS ADMIN */
+
+/* INICIAR SESION | ADMIN  */
+
+.cajaIniciarSesion {
+    width: 70%;
+    height: 445px;
+}
+
+/* GESTIONAR USUARIOS */
+
+.enConstruccion div{
+    width: 50% ;
+}
+
+
+}
+
+
+/* IPAD | HOME */
+
+/* NORMALIZADORES */
+
+@media (min-width: 768px){
+
+a{
+    font-size: 17px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 27px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h5{
+    font-size: 19px;
+}
+
+span{
+    font-size: 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+i{
+    font-size: 20px;
+}
+
+input,
+textarea,
+label{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+/* RECURSIVAS */
+
+.btn_principal{
+    width: 163px;
+    height: 60px;
+    font-size: 18px;
+    margin: 56px auto;
+}
+
+.btn_atras{
+    width: 40px;
+    height: 40px;
+    top: 277px;
+    left: 26px;
+}
+
+/* PAGINACION */
+
+.cajaProductoTienda{
+    justify-content: flex-start;
+
+}
+
+/* Javascript */
+
+.transformX {
+    transform: translateX(-131px) !important;
+}
+
+/* GENERAL */
+
+.desplegable_menu_mob{
+    width: 331px;
+    right: -103px;
+}
+
+.footer{
+    height: 121px;
+    padding: 2%;
+    align-items: center;
+}
+
+.logo_footer {
+    width: 76px;
+    height: 64px;
+}
+
+.footer div{
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* GENERAL |  ADMIN  */
+
+.btn_CerrarSesion{
+    width: 215px;
+    height: 52px;
+}
+
+.cabecera_mob_admin {
+    height: 282px;
+}
+
+.nav_mob_admin i {
+    font-size: 54px;
+}
+
+/* NAV */
+
+.desplegable_menu_mob_admin{
+    width: 297px;
+    height: 422px;
+    right: -109px;
+}
+.desplegable_menu_mob_admin a{
+    font-size: 25px;
+}
+
+
+/* FIN GENERAL ADMIN */
+
+
+/* ESPECIFICO | HOME  */
+
+.s1{
+    margin: auto;
+    height: 306px;
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s1 div{
+    width: 46%;
+}
+
+.s1 h4{
+    width: 85%;
+}
+
+.imgs1 {
+    width: 365px ;
+    height: 280px;
+}
+
+
+/* SECTION 2 | HOME */
+
+.section2{
+    height: 325px;
+}
+.categorias{
+    justify-content: space-around;
+}
+
+.categorias > div{
+    padding: 0px;
+}
+.categorias_div div {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 10px;
+
+}
+
+.categorias_div{
+    width: 170px;
+    height: 170px;
+}
+
+.especificaciones p {
+    font-size: 16px;
+}
+
+/* SECTION 3 | HOME  */
+
+.opiniones{
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opiniones > div{
+    width: 30%;
+    height: 210px;
+}
+
+.cajaOpinionesbtn{
+    width: 30%;
+}
+
+/* SECTION 4 | HOME */
+
+.img_sect4,
+.img2_sect4{
+    width: 79%;
+    padding: 2%;
+}
+
+.img_sect4 div,
+.img2_sect4 div {
+    width: 140px;
+    height: 127px;
+}
+
+.img_sect4 p, .img2_sect4 p {
+    width: 67%;
+}
+
+
+/* CONTACTO */
+
+.formulario{
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto_s1 input {
+    width: 90%;
+    height: 50px;
+    margin: 15px auto;
+}
+
+
+.contacto_s1 textarea {
+    width: 90%;
+}
+
+.errorFormulario, 
+.errorFormularioCorreo {
+    padding: 2%;
+}
+
+.formulario form{
+    width: 50%;
+}
+
+.formulario{
+    justify-content: space-around;
+}
+
+input, textarea {
+    font-size: 18px;
+}
+
+.img1_formulario{
+    width: 214px;
+    height: 262px;
+}
+
+.img2_formulario {
+    width: 214px;
+    height: 93px;
+}
+
+/* METODO DE ENVIO  */
+
+.cajaMetodoEnvio label  {
+    font-size: 17px;
+}
+
+.cajaMetodoEnvio input{
+    height: 18px;
+    width: 18px;
+}
+
+/* PRODUCTO ESPECIFICO */
+
+.imagenProductoEspecifico,
+.Sect1ProductoEspecifico{
+    width: 276px;
+    height: 276px;
+}
+
+.ProductoEspecifico{
+    margin: 56px auto 179px;
+}
+.productoFavorito i{
+    font-size: 28px;
+}
+
+/* CARACTERISTICAS DEL PRODUCTO */
+
+.cajaCaracteristicasProd{
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cajaCaracteristicasProd div{
+    width: 48%;
+    
+}
+
+/* TIENDA */
+
+.iconosTienda button:hover{
+    background-color: transparent !important;
+    color: #459377;
+    transition: all 0.5s ease-in-out;
+}
+
+.productoTienda {
+    width: 33%;
+}
+
+/* PAGINA VISTA USUARIOS */
+.btnVistaUsuario{
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ESPECIFICOS | ADMIN */
+
+/* INICIAR SESION | ADMIN  */
+
+.cajaIniciarSesion {
+    width: 56%;
+    height: 588px;
+    margin: 42px auto 68px;
+}
+
+.cajaIniciarSesion p {
+    margin: 39px auto;
+}
+
+/* GESTIONAR PRODUCTOS | ADMIN */
+
+.menu_seleccion p{
+    font-size: 20px;
+}
+
+/*  SUBIR PRODUCTOS | ADMIN  */
+
+.h3SubirProducto {
+    text-align: center;
+    margin: 42px auto;
+}
+
+.cajaInputSubirProducto,
+.cajaInputSubirProductoGenerico {
+    width: 75%;
+}
+
+.cajaGestionarProducto {
+    height: 78px;
+}
+
+.encabezadoSubirProducto{
+    width: 72%;
+}
+
+.encabezadoSubirProducto a{
+    width: 40px;
+    height: 40px;
+}
+
+.encabezadoSubirProducto i {
+    font-size: 17px;
+}
+
+.cajaInputSubirProducto input,
+.cajaInputSubirProductoGenerico input{
+    height: 54px;
+}
+
+/* PAGINA RECUPERAR CONTRASEÑA | ADMIN  */
+
+.cajaRecuperarContraseña {
+    width: 58%;
+}
+
+.formularioRecuperarContrasena input {
+    width: 102%;
+    height: 67px;
+    padding: 15px;
+}
+
+.formularioRecuperarContrasena .btn_principal {
+    width: 207px;
+}
+
+}
+
+
+@media (min-width: 1024px){
+
+/* SECTION 1 | HOME */
+
+.s1{
+    height: 357px;
+    width: 89%;
+    margin: auto;
+}
+
+.imgs1 {
+    width: 444px;
+    height: 326px;
+}
+
+.btn_principal{
+    width: 190px;
+}
+
+/* SECTION 2 | HOME */
+
+.section2 {
+    height: 325px;
+    width: 80%;
+    margin: auto;
+}
+
+/* ESPECIFICACIONES */
+
+.especificaciones p {
+    width: 213px;
+}
+
+/* SECTION 3  | HOME  */
+
+.opiniones {
+    margin: 42px auto;
+}
+
+
+/* SECTION 4 | HOME */
+
+.img_sect4, .img2_sect4 {
+    width: 70%;
+}
+
+.img_sect4 p, .img2_sect4 p {
+    width: 63%;
+}
+
+/* METODO DE ENVIO */
+
+.cajaMetodoEnvio form{
+    width: 18%;
+}
+
+
+/* Formas de envio */
+
+.imagenFormasEnvio {
+    width: 25%;
+    margin: 0px 60px;
+}
+
+.caja1FormasEnvio p, .cajaFormasEnvio p {
+    width: 66%;
+    margin: 33px auto;
+}
+
+/* PRODUCTO ESPECIFICO */
+
+.ProductoEspecifico{
+    width: 70%;
+}
+
+.btn_atras {
+    top: 279px;
+    left: 79px;
+}
+
+.cantidad {
+    width: 63%;
+}
+
+.cantidad i{
+    width: 40px;
+    height: 40px;
+    font-size: 19px;
+}
+
+
+
+/*--------------- ADMIN------------ */
+
+/* INICIAR SESION | ADMIN */
+
+.cajaIniciarSesion {
+    width: 46%;
+    height: 553px;
+}
+
+.cajaIniciarSesion p {
+    margin: 45px auto;
+}
+
+.cajaIniciarSesion p a {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* SUBIR PRODUCTO | ADMIN  */
+
+.cajaInputSubirProducto {
+    width: 85%;
+    text-align: center;
+}
+
+
+
+.cajaInputSubirProducto input {
+    width: 43%;
+    margin: 8px 24px;
+    padding: 3%;
+
+}
+
+
+.cajaInputSubirProducto textarea {
+    width: 92%;
+    margin: 9px 25px;
+    
+}
+
+/* PAGINA RECUPERAR CONTRASEÑA  */
+
+.cajaRecuperarContraseña {
+    width: 58%;
+}
+
+}
+
+
+@media (min-width: 1280px){
+
+    a{
+        font-size: 23px;
+    }
+    
+    h1{
+        font-size: 35px;
+    }
+    
+    h2{
+        font-size: 32px;
+    }
+    
+    h3{
+        font-size: 30px;
+    }
+    
+    h4{
+        font-size: 25px;
+    }
+    
+    h5{
+        font-size: 24px;
+    }
+    
+    span{
+        font-size: 25px;
+    }
+    
+    p{
+        font-size: 22px;
+    }
+    
+    i{
+        font-size: 25px;
+    }
+    
+    input,
+    textarea{
+        font-size: 20px;
+    }
+
+    button{
+        font-size: 21px;
+    }
+
+/* RECURSIVAS | BACK */
+
+.btn_admin_Gproductos{
+    margin: 0px 4px;
+    font-size: 19px;
+}
+
+/* TIENDA FRONT | HOME  */
+
+.h1_Tienda{
+    margin: 62px auto 20px;
+}
+
+.cajaTiendaTipos {
+    width: 78%;
+    margin: 24px auto;
+}
+
+.imgProductoTienda {
+    height: 226px;
+    width: 226px;
+}
+
+.imgProductoTienda img{
+    object-fit: cover;
+}
+
+.iconosTienda button {
+    width: 50px;
+    height: 50px;
+    margin: 20px 18px;
+}
+
+.cajaTiendaTipos button{
+    font-size: 19px;
+}
+
+.cajaTiendaTipos button i{
+    font-size: 22px;
+}
+
+/* GENERAL */
+.btn_menu_mob{
+    display: none;
+}
+
+.nav_dsk_front{
+    height: 70px;
+    background-color: #B5FFE5;
+    /*flex*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.carrito_compra{
+    background-color: #FFC3B5;
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+
+.btn_principal {
+    width: 223px;
+    height: 60px;
+    font-size: 22px;
+    margin: 40px auto;
+}
+
+.cabecera_mob {
+    width: 95%;
+    height: 205px;
+    /*flex*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.cabecera_mob > div{
+    margin-right: 207px;
+}
+
+.rrss_mob{
+    width: 141px;
+    height: 47px;
+}
+
+.rrss_mob a{
+    width: 45px;
+    height: 45px;
+}
+
+.carrito_compra{
+    width: 60px;
+    height: 60px;
+}
+
+.footer div a {
+    margin: 10px 24px;
+}
+
+/* GENERAL | ADMIN */
+
+.desplegable_menu_mob_admin{
+    display: none;
+}
+
+.nav_dsk_admin{
+    background-color: #90EDCB;
+    width: 100%;
+    height: 62px;
+    margin: 43px auto;
+    /*flex*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn_CerrarSesion {
+    width: 276px;
+    height: 77px;
+}
+
+.nav_mob_admin{
+    display: none;
+}
+
+.cabecera_mob_admin{
+    /*flex*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn_CerrarSesion{
+    margin: 0px;
+}
+
+/* ESPECIFICOS */
+
+/* Section 1 | Home */
+
+.s1 p {
+    font-size: 46px;
+}
+
+.imgs1 {
+    height: 358px;
+}
+
+/* Section 2 | Home */
+
+
+.categorias_div div,
+.categorias_div {
+    width: 200px;
+    height: 200px;
+}
+
+.section2 {
+    height: 364px;
+}
+
+/* Section 3 | Home */
+
+.especificaciones p {
+    width: 290px;
+    font-size: 19px;
+}
+
+.btnOpinion {
+    width: 50px;
+    height: 50px;
+}
+
+.btnOpinion i {
+    font-size: 50px;
+}
+
+
+/* PAGINA CONTACTO */
+
+.formulario{
+    width: 74%;
+    margin: auto;
+}
+
+.formulario > div{
+    margin: -145px 0px 0px;
+}
+
+.img1_formulario{
+    width: 216px;
+    height: 265px;
+}
+
+.img2_formulario{
+    width: 216px;
+    height: 86px;
+}
+
+/* METODO DE ENVIO  */
+
+
+.cajaMetodoEnvio h3{
+    margin: 56px auto 20px;
+}
+
+.cajaMetodoEnvio input {
+    height: 25px;
+    width: 25px;
+}
+
+.cajaMetodoEnvio label {
+    font-size: 21px;
+}
+
+.cajaMetodoEnvio .btn_principal{
+    width: 226px;
+    margin: 40px 0px;
+}
+
+
+/* FORMAS DE ENVIO */
+
+.caja1FormasEnvio{
+    margin-top: 61px;
+}
+
+.imagenFormasEnvio {
+    width: 23%;
+    margin: 0px 75px;
+}
+
+.caja1FormasEnvio p, .cajaFormasEnvio p {
+    width: 65%;
+    margin: 35px auto;
+}
+
+/* TIENDA */
+
+.cajaTiendaTipos a {
+    font-size: 22px;
+}
+
+/* PRODUCTO ESPECIFICO */
+
+.ProductoEspecifico div:last-child{
+    width: 316px;
+    text-align: left;
+}
+
+.cantidad{
+    margin: 0px;
+}
+
+.btn_atras {
+    width: 50px;
+    height: 50px;
+    top: 362px;
+    left: 120px;
+}
+
+.imagenProductoEspecifico, .Sect1ProductoEspecifico {
+    width: 317px;
+    height: 317px;
+    margin-bottom: 15px;
+}
+
+.imagenProductoEspecifico img{
+    object-fit: cover;
+    object-position: center;
+}
+
+.ProductoEspecifico h4 {
+    font-size: 23px;
+}
+
+/* CARACTERISTICAS DEL PRODUCTO */
+
+.sectionCarateristicas h1{
+    margin-top: 70px;
+}
+
+.cajaCaracteristicasProd div {
+    width: 32%;
+}
+/* FIN ESPECIFICOS FRONT */
+
+/*------------------ ADMIN--------------- */
+
+/* PAGINA INICIAR SESION */
+
+.cajaIniciarSesion {
+    width: 43%;
+    height: 615px;
+}
+
+#usuario{
+    height: 60px;
+    padding: 3%;
+    font-size: 21px;
+}
+.password{
+    height: 60px;
+    font-size: 20px;
+}
+
+.cajaIniciarSesion p a {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+/* SUBIR PRODUCTOS */
+
+.cajaGestionarProducto h1 {
+    font-size: 25px;
+}
+
+.cajaInputSubirProducto textarea {
+    height: 226px;
+    padding: 3%;
+
+}
+
+/* PAGINA GETIONAR PRODUCTOS  */
+
+.menu_seleccion{
+    height: 62px;
+}
+
+.cabecera_mob_admin{
+    height: 174px;
+}
+
+.div_gestionarProducto p{
+    margin: 0px 39px 18px;
+}
+
+.div_gestionarProducto p:first-child {
+    padding-left: 46px;
+}
+
+.div_gestionarProducto{
+    height: 109px;
+}
+
+.div_gestionarProducto p:nth-child(7){
+    overflow: auto;
+    height: 55px;
+    width: 234px;
+}
+
+/* PAGINA RECUPERAR CONTRASEÑA */
+
+.cajaRecuperarContraseña {
+    width: 36%;
+}
+
+.formularioRecuperarContrasena .btn_principal {
+    width: 246px;
+}
+
+/* PAGINA GESTIONAR USUARIOS */
+.enConstruccion div {
+    width: 28%;
+}
+
+}
+
+@media(min-width: 1920px ){
+
+/* NORMALIZADORES */
+
+
+a {
+    font-size: 27px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 29px;
+}
+
+p {
+    font-size: 27px;
+}
+
+
+/* RECURSIVAS | FRONT */
+
+.btn_principal {
+    width: 270px;
+    padding: 2%;
+}
+
+
+/* GENERAL */
+
+.btn_up {
+    width: 74px;
+    height: 74px;
+    top: 76%;
+    left: 90px;
+}
+
+.btn_up i {
+    font-size: 58px;
+}
+
+.cabecera_mob{
+    height: 225px;
+}
+
+.cabecera_mob > div{
+    margin-right: 475px;
+}
+
+.rrss_mob{
+    width: 124px;
+    height: 49px;
+}
+
+.rrss_mob a{
+    width: 50px;
+    height: 50px;
+}
+
+.cajaInputSubirProducto input, .cajaInputSubirProductoGenerico input{
+    height: 85px;
+}
+ label{
+    font-size: 24px;
+}
+
+.persona div {
+    width: 50px;
+    height: 50px;
+}
+
+/* NAV */
+
+.carrito_compra{
+    width: 60px;
+    height: 60px;
+}
+
+
+
+/*  RECURSIVAS ADMIN  */
+
+.encabezadoSubirProducto a{
+    width: 60px;
+    height: 60px;
+}
+
+.encabezadoSubirProducto i {
+    font-size: 28px;
+}
+
+/* GENERAL | BACK */
+
+.nav_dsk_admin{
+    height: 85px;
+}
+
+.footer div a {
+    margin: 10px 111px;
+}
+
+/* ESPECIFICOS */
+
+/* Section 1 | Home  */
+
+.s1 {
+    height: 446px;
+}
+
+.s1 div {
+    width: 746px;
+}
+
+.imgs1 {
+    height: 504px;
+}
+
+
+.s1 p {
+    font-size: 62px;
+}
+
+.s1 h1 {
+    font-size: 32px;
+}
+
+.categorias_div div,
+.categorias_div {
+    width: 300px;
+    height: 300px;
+}
+
+.categorias {
+    height: 376px;
+}
+
+/* Section 2 | Home  */
+
+.section2 {
+    height: 493px;
+}
+
+
+/* Section 3 | HOME */
+
+.section3{
+    height: 547px;
+}
+
+.especificaciones p {
+    width: 370px;
+    font-size: 26px;
+}
+
+.especificaciones {
+    margin-bottom: 81px;
+}
+
+.opiniones > div {
+    width: 27%;
+    height: 267px;
+}
+
+/* Section 4 | Home */
+
+.img_sect4, .img2_sect4 {
+    width: 58%;
+}
+
+
+.img_sect4 div, .img2_sect4 div {
+    width: 249px;
+    height: 218px;
+}
+
+/* PAGINA CONTACTO */
+
+.formulario{
+    width: 76%;
+    margin: auto;
+}
+
+.img1_formulario{
+    width: 280px;
+    height: 323px;
+    margin: 7px 0px 11px;
+}
+
+.img2_formulario{
+    width: 279px;
+    height: 130px;
+    margin: 10px 0px;
+}
+
+
+
+/* METODO DE ENVIO */
+
+.cajaMetodoEnvio input{
+    height: 30px;
+    width: 30px;
+}
+
+.cajaMetodoEnvio label {
+    font-size: 23px;
+}
+
+.cajaMetodoEnvio form {
+    width: 14%;
+}
+
+/* FORMAS DE ENVIO */
+
+.caja1FormasEnvio {
+    width: 68%;
+}
+
+.imagenFormasEnvio {
+    width: 29%;
+
+    /* ANIMACION */
+    -webkit-animation: shake-horizontal 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+    animation: shake-horizontal 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+    }
+
+    /* ----------------------------------------------
+ * Generated by Animista on 2021-7-12 19:43:6
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation shake-horizontal
+ * ----------------------------------------
+ */
+@-webkit-keyframes shake-horizontal {
+    0%,
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateX(-10px);
+              transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateX(10px);
+              transform: translateX(10px);
+    }
+    80% {
+      -webkit-transform: translateX(8px);
+              transform: translateX(8px);
+    }
+    90% {
+      -webkit-transform: translateX(-8px);
+              transform: translateX(-8px);
+    }
+  }
+  @keyframes shake-horizontal {
+    0%,
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateX(-10px);
+              transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateX(10px);
+              transform: translateX(10px);
+    }
+    80% {
+      -webkit-transform: translateX(8px);
+              transform: translateX(8px);
+    }
+    90% {
+      -webkit-transform: translateX(-8px);
+              transform: translateX(-8px);
+    }
+  }
+  
+
+.caja1FormasEnvio p, .cajaFormasEnvio p {
+    width: 59%;
+    margin: 58px auto;
+}
+
+/* TIENDA */
+
+.cajaTiendaTipos button {
+    font-size: 25px;
+}
+
+.productoTienda {
+    width: 32%;
+}
+
+.imgProductoTienda {
+    height: 256px;
+    width: 256px;
+}
+
+.cajaProductoTienda {
+    width: 79%;
+    margin: 54px auto;
+}
+
+.cajaTiendaTipos a {
+    font-size: 27px;
+}
+
+/* PRODUCTO ESPECIFICO */
+
+.ProductoEspecifico{
+    width: 60%;
+}
+
+
+.ProductoEspecifico div:last-child {
+    width: 49%;
+    margin: 20px 0px;
+    text-align: left;
+}
+
+.imagenProductoEspecifico, .Sect1ProductoEspecifico {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.btn_atras{
+    top: 383px;
+    left: 257px;
+}
+
+.productoFavorito i {
+    font-size: 37px;
+}
+
+.ProductoEspecifico h4 {
+    font-size: 31px;
+}
+
+.ProductoEspecifico {
+    margin: 56px auto 159px;
+}
+
+.cantidad {
+    width: 42%;
+    margin: 30px 0px;
+}
+
+
+/* --------------ADMIN ----------*/
+
+/* INICIAR SESION */
+
+.cajaIniciarSesion {
+    width: 33%;
+    height: 707px;
+}
+
+#usuario{
+    height: 65px;
+    padding: 3%;
+    font-size: 21px;
+}
+
+.password{
+    height: 65px;
+}
+
+#password,
+#password2{
+    font-size: 22px ;
+}
+
+.cajaIniciarSesion p a{
+    font-size: 25px;
+}
+
+.iconosTienda button {
+    width: 60px;
+    height: 60px;
+}
+
+.iconosTienda i {
+    font-size: 27px;
+}
+/* SUBIR | EDITAR PRODUCTOS | ADMIN  */
+
+.cajaInputSubirProducto textarea {
+    width: 89%;
+}
+
+/* PAGINA RECUPERAR CONTRASEÑA */
+
+.cajaRecuperarContraseña {
+    width: 29%;
+}
+
+/* GESTIONAR PRODUCTOS */
+
+.menu_seleccion{
+    justify-content: space-around;
+}
+
+.div_gestionarProducto{
+    justify-content: space-around;
+}
+
+
+/* GESTIONAR USUARIOS */
+
+
+.enConstruccion div {
+    width: 24%;
+
+}
+
+
+
+}
